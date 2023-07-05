@@ -7,6 +7,20 @@
   box-sizing: border-box;
 }
 
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.main__body {
+  padding: 32px;
+}
+
 .dark-gray {
   color: #243e63;
 }
@@ -22,11 +36,10 @@
   height: 40px;
 }
 
-nav {
+.nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px;
 }
 
 .nav__heading {
@@ -38,9 +51,6 @@ nav {
   font-size: 24px;
   font-weight: 800;
   margin-left: 16px;
-}
-
-.nav__links {
 }
 
 .nav__link {
@@ -58,4 +68,127 @@ nav {
   color: #fff;
   font-size: 0.875rem;
   font-weight: 600;
+}
+
+.TwoColumnWithInput__Container {
+  position: relative;
+}
+
+.TwoColumnWithInput__TwoColumn {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 96px 0;
+  align-items: center;
+}
+
+.TwoColumnWithInput__LeftColumn {
+  width: 41.6667%;
+  max-width: none;
+  text-align: left;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.TwoColumnWithInput__Heading {
+  font-size: 48px;
+}
+
+.TwoColumnWithInput___StyledSpan {
+  color: #6415ff;
+}
+
+.TwoColumnWithInput__Paragraph {
+  font-size: 18px;
+  margin: 32px 0;
+  color: #243e43;
+  line-height: 1.5;
+}
+
+.TwoColumnWithInput__Actions {
+  margin: 0 auto;
+  position: relative;
+  max-width: 448px;
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.TwoColumnWithInput__Actions input {
+  width: 100%;
+  border-radius: 50px;
+  font-weight: 500;
+  padding: 20px 192px 20px 32px;
+  border: 2px solid lightgray;
+}
+
+.TwoColumnWithInput__Actions input::placeholder {
+  font-size: 16px;
+  color: lightgray;
+  opacity: 1;
+}
+
+.TwoColumnWithInput__Actions button {
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: 8px 8px 8px 0;
+  padding: 16px 0;
+  background-color: #6415ff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: none;
+  font-weight: 700;
+  width: 160px;
+  line-height: 1;
+  /* max-width: 448px; */
+}
+
+.TwoColumnWithInput__CustomersLogoStrip {
+  margin-top: 80px;
+}
+
+.TwoColumnWithInput__CustomersLogoStrip p {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgb(160 174 192);
+}
+
+.TwoColumnWithInput__CustomersLogoStrip img {
+  margin-top: 16px;
+  width: 100%;
+  opacity: 0.5;
+  padding: 0 128px 0 0;
+}
+
+/* RIGHT COLUMN */
+
+.TwoColumnWithInput__RightColumn {
+  position: relative;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 0%;
+}
+
+.TwoColumnWithInput__IllustrationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.TwoColumnWithInput___StyledImg {
+  width: 100%;
+  min-width: 0px;
+  height: auto;
 }
