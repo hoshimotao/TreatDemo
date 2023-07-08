@@ -7,8 +7,16 @@
   box-sizing: border-box;
 }
 
+h5 {
+  margin: 0;
+}
+
 button {
   cursor: pointer;
+}
+
+svg {
+  display: block;
 }
 
 img {
@@ -191,4 +199,47 @@ img {
   width: 100%;
   min-width: 0px;
   height: auto;
+}
+
+.ThreeColWithSideImage__Container {
+  position: relative;
+}
+
+.ThreeColWithSideImage__ThreeColumnContainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 1024px;
+  flex-flow: column wrap;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.ThreeColWithSideImage__Subheading {
+  font-weight: 700;
+  color: rgb(100 21 255);
+  margin-bottom: 1rem;
+  font-size: inherit;
+}
+
+.SaaSProductLandingPage__Subheading {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgb(100 21 255);
+}
+
+.ThreeColWithSideImage__Heading {
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  color: #243e63;
+}
+.SaaSProductLandingPage__HighlightedText {
+  color: rgb(100 21 255);
 }
