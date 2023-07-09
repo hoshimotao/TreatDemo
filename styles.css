@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: inherit;
+}
+
 h5 {
   margin: 0;
 }
@@ -303,4 +307,100 @@ img {
   line-height: 2;
   --tw-text-opacity: 1;
   color: rgb(124 139 161);
+}
+
+/* 3rd Section */
+
+.TwoColWithButton__Container {
+  position: relative;
+}
+
+.TwoColWithButton__TwoColumn {
+  display: flex;
+  max-width: 1280px;
+  flex-direction: row;
+  padding: 96px 0;
+  margin: 0 81px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TwoColWithButton__ImageColumn {
+  width: 50%;
+  position: relative;
+  flex-shrink: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: none;
+}
+
+.TwoColWithButton___StyledImage {
+  border-radius: 4px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid rgb(226, 232, 240);
+}
+
+.TwoColWithButton__TextColumn {
+  margin-right: 16px;
+  order: -999;
+  margin-top: 0px;
+  width: 50%;
+  margin-left: 0px;
+  max-width: none;
+}
+
+.TwoColWithButton__TextContent {
+  padding: 32px 0;
+  text-align: left;
+}
+
+.TwoColWithButton__Subheading {
+  text-align: left;
+  font-weight: 700;
+  color: rgb(100 21 255);
+}
+
+.SaaSProductLandingPage__Subheading {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgb(100 21 255);
+  font-size: 16px;
+}
+
+.TwoColWithButton__Heading {
+  font-size: 48px;
+  text-align: left;
+  margin-top: 16px;
+  font-weight: 900;
+  line-height: 1.25;
+  color: #243e63;
+}
+
+.TwoColWithButton___StyledSpan {
+  color: rgb(100 21 255);
+}
+
+.TwoColWithButton__Description {
+  font-size: 1.125rem;
+  margin-top: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  color: rgb(124 139 161);
+}
+
+.TwoColWithButton__PrimaryButton {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 32px;
+  display: inline-block;
+  font-size: 14px;
+  padding: 12px 32px;
+  border-radius: 999px;
+  background-color: rgb(100 21 255);
+  font-weight: 700;
+  color: rgb(247 250 252);
 }
