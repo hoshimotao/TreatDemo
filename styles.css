@@ -11,6 +11,16 @@ a {
   text-decoration: inherit;
 }
 
+p {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
 h5 {
   margin: 0;
 }
@@ -403,4 +413,103 @@ img {
   background-color: rgb(100 21 255);
   font-weight: 700;
   color: rgb(247 250 252);
+}
+
+/* SECTION 4 */
+
+.TwoColWithSteps__Container {
+  position: relative;
+}
+.TwoColWithSteps__TwoColumn {
+  flex-direction: row;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 1280px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.TwoColWithSteps__ImageColumn {
+  width: 50%;
+  position: relative;
+  flex-shrink: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  max-width: none;
+}
+
+.TwoColWithSteps__Image {
+  border-radius: 4px;
+}
+
+.TwoColWithSteps__TextColumn {
+  margin-left: 64px;
+  margin-right: 0px;
+  order: 999;
+  margin-top: 0px;
+  width: 50%;
+  max-width: none;
+}
+
+.TwoColWithSteps__TextContent {
+  text-align: left;
+  padding: 32px 0;
+}
+
+.TwoColWithSteps__Subheading {
+  text-align: left;
+  font-weight: 700;
+  color: rgb(100, 21, 255);
+}
+
+.TwoColWithSteps__Heading {
+  font-size: 48px;
+  text-align: left;
+  margin-top: 16px;
+  font-weight: 900;
+  line-height: 1.25;
+  letter-spacing: 0.025em;
+  color: #243e63;
+}
+
+.TwoColWithSteps__Steps {
+  margin-top: 48px;
+}
+
+.TwoColWithSteps__Step {
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 32px;
+  display: flex;
+}
+
+.TwoColWithSteps__StepNumber {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1;
+  color: rgb(203 213 224);
+}
+
+.TwoColWithSteps__StepText {
+  margin-top: 0px;
+  margin-left: 1.5rem;
+}
+
+.TwoColWithSteps__StepHeading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0px;
+}
+
+.TwoColWithSteps__StepDescription {
+  margin-top: 0.75rem;
+  max-width: 320px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 2;
+  color: rgb(113 128 150);
 }
